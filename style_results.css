@@ -56,7 +56,7 @@ body {
     line-height: 26px;
     font-size: 16px;
     width: 610px;
-    border-right: 1px solid grey;
+    border-right: 1px solid rgba(128, 128, 128, 0.534);
     background-color: transparent;
     box-sizing: border-box;
     margin-top: 8px;
@@ -168,6 +168,24 @@ a {
     padding-top: 9px;
 }
 
+.boton-herramientas {
+    padding: 5px 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.boton-herramientas:hover {
+    border: 1px solid rgba(128, 128, 128, 0.459);
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(128, 128, 128, 0.062);
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.2);
+}
+
+.boton-herramientas a:hover {
+    color: black;
+}
+
 .contenedor-iconos {
     position: relative;
     box-sizing: border-box;
@@ -269,11 +287,13 @@ a {
 .navegador {
     margin: 30px 0 40px 180px;
     position: static;
+    width: 250px;
 }
 
 .navegador-logo {
     position: relative;
     left: 200px;
+    width: 250px;
 }
 
 tr td a {
