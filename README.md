@@ -1,0 +1,1 @@
+The purpose of this project is to recreate the Google homepage as closely as possible

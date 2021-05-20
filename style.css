@@ -1,0 +1,229 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/*BARRA NAVEGACION*/
+
+nav,
+section,
+footer {
+    display: block;
+}
+
+nav {
+    height: 48px;
+    padding: 6px;
+}
+
+.menu {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: flex-end;
+    padding: 0 4px;
+    align-items: center;
+    height: 100%;
+}
+.boton {
+    height: 100%;
+    border: none;
+    background: none;
+    color: black;
+    padding-left: 15px;
+    line-height: 48px;
+}
+
+.menu button:hover {
+    cursor: pointer;
+}
+
+.menu a:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.boton-apps {
+    background-color: white;
+    border-radius: 50%;
+}
+.boton-apps:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.boton-apps {
+    padding: 4px 15px 12px 15px;
+    margin-left: 15px;
+}
+
+.imagen_menu {
+    width: 16px;
+    opacity: 0.6;
+}
+
+.boton-sesion {
+    padding: 9px 23px;
+    margin: 0 8px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 4px;
+    height: 36px;
+    font-size: 14px;
+}
+
+.boton-sesion:hover {
+    background-color: #3582e7;
+}
+
+/*CUERPO PRINCIPAL*/
+
+section {
+    text-align: center;
+}
+
+.logo_1 {
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_2 {
+    height: 100%;
+    width: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo_img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+
+.buscador {
+    box-sizing: border-box;
+    height: 493px;
+    padding: 26px;
+}
+
+.wrapper {
+    width: 582px;
+    margin: 0px auto;
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 24px;
+    height: 44px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 0px 5px 0px 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper:hover {
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.3);
+}
+
+.inline {
+    display: inline-block;
+}
+
+.lupa img,
+.mic img {
+    width: 18px;
+    opacity: 0.7;
+    margin: 5px 7px 0px 7px;
+}
+
+.form {
+    width: 480px;
+    line-height: 44px;
+    text-align: left;
+    margin-top: -5px;
+    box-sizing: border-box;
+    padding-top: 7px;
+}
+
+.input {
+    text-decoration: none;
+    border: none;
+    line-height: 36px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+
+
+.buscar {
+    padding-top: 18px;
+}
+
+.submit {
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    line-height: 27px;
+    border: none;
+    font-weight: 200;
+    font-size: 14px;
+    background-color: #f8f9fa
+}
+
+.submit:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.3);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+/*PIE DE PAGINA*/
+
+footer {
+    display: block;
+    height: 94px;
+    background: #f2f2f2;
+}
+
+.pais {
+    display: block;
+    height: 48px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+}
+
+.info {
+    display: flex;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: #70757a;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+
